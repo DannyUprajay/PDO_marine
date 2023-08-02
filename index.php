@@ -51,12 +51,6 @@ $actors = $actorRepository->findAll();
         <table class="table">
             <tbody>
             <tr>
-                <th scope="row">ID</th>
-                <?php foreach ($movies as $movie) : ?>
-                    <td><?= $movie["id"] ?></td>
-                <?php endforeach ?>
-            </tr>
-            <tr>
                 <th scope="row">TITLE</th>
                 <?php foreach ($movies as $movie) : ?>
                     <td><?= $movie["title"] ?></td>
